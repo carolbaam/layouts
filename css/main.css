@@ -1,0 +1,145 @@
+.a_uno, 
+.a_dos, 
+.a_tres
+ { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	border:solid black 2px;
+	
+}
+.a_uno, 
+.b_uno, 
+.c_uno, 
+.d_uno,
+.e_uno,
+.f_uno { 
+	
+	
+	background: rgba(79, 72, 180, 0.836);
+}
+.a_dos, 
+.b_dos, 
+.c_dos, 
+.d_dos,
+.e_dos,
+.f_dos 
+ { 
+	
+	
+	
+	background: #c469b7;
+}
+.a_tres, 
+.b_tres, 
+.c_tres, 
+.d_tres,
+.e_tres,
+.f_tres,
+.f_cuatro  { 
+
+
+	
+	background: #d698c3;
+}
+
+
+.b_uno, 
+.b_dos, 
+.b_tres { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border: solid 2px black;
+	
+}
+
+
+.c_uno, 
+.c_dos, 
+.c_tres { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border:solid black 2px;
+	
+}
+.c_dos{
+	left:200px;
+}
+
+
+.d_uno,
+.d_dos,
+.d_tres{
+	margin: 0px;
+	padding: 0px;
+ position: absolute;
+ width: 200px;
+ height: 200px;
+ border: solid black 2px;
+}
+
+.d_dos{
+
+	left:200px;
+}
+
+.d_tres{
+	top:200px;
+}
+
+.e_uno,
+.e_dos,
+.e_tres{
+	margin: 0px;
+	padding: 0px;
+ position: absolute;
+ width: 200px;
+ height: 200px;
+ border: solid black 2px;
+}
+.e_dos{
+ left:200px;	
+}
+.e_tres{
+
+	left:413px;
+}
+
+#ejemploF{
+	left:600px;
+	font:black;
+}
+.f_uno{ 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+.f_dos { 
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+.f_tres { 
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+.f_cuatro { 
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #ebde52;
+}
